@@ -264,6 +264,7 @@ footer  {
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     width: 70%;
+    text-align: center;
 }
 
 /* MEMBER SECTION */
@@ -326,6 +327,7 @@ footer  {
     font-size: 1.8rem;
     margin: 1%;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
