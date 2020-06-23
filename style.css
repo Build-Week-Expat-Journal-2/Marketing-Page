@@ -138,16 +138,18 @@ h3 {
     font-size: 2rem;
     text-decoration: none;
     color: black;
-    /* background-color: #D5BF86; */
     color: #3F0D12;
     font-weight: bold;
+    font-family: 'Offside', cursive;
+    text-transform: uppercase;   
 
 }
 
 .login a:hover {
-    border-bottom: 3px solid #D5BF86;
+    /* border-bottom: 3px solid #D5BF86; */
+    background-color: #D5BF86;
     transform: scale(1.1);
-    text-transform: uppercase;   
+    text-transform: lowercase;   
 }
 
 /* FOOTER */
