@@ -192,7 +192,7 @@ footer  {
     border-top: 2px solid #8D775F;
     background-color: #D5BF86;
     color: #3F0D12;
-    padding: 1%;
+    /* padding: 1%; */
    
 }
 
@@ -201,17 +201,17 @@ footer  {
     /* height: 10vh; */
     display: flex;
     /* margin: 0 auto; */
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     text-align: center;
 }
 
 .main-links a {
-    width: 10%;
+    width: 20%;
     padding: 1%;
-    margin: 2% 0;
-    font-size: 1.8rem;
+    margin: 1% 0;
+    font-size: 2.3rem;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -229,13 +229,13 @@ footer  {
 .socials-links {
     /* width: 30vw;
     height: 8vh; */
-    width: 80%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     /* margin: 0 auto; */
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 1%;
+    
 }
 
 .socials-links img {
