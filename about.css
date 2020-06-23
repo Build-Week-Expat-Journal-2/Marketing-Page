@@ -83,6 +83,7 @@ header nav a{
 
 header nav a:hover{
     border-bottom: 3px solid #f1f0cc;
+    transform: scale(1.2);
     
 }
 

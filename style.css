@@ -45,7 +45,7 @@ header nav a{
 
 header nav a:hover{
     border-bottom: 3px solid #f1f0cc;
-    
+    transform: scale(1.2);
 }
 
 
@@ -148,7 +148,7 @@ h3 {
 .login a:hover {
     /* border-bottom: 3px solid #D5BF86; */
     background-color: #D5BF86;
-    transform: scale(1.1);
+    transform: scale(1.2);
     text-transform: lowercase;   
 }
 
