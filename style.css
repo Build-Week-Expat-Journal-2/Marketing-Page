@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html {
@@ -68,18 +68,15 @@ header nav a:hover{
     width: 50%;
 }
 
-/* IMAGE SECTION */
-.mid-two {
-    width: 35%;
-
-}
+/* OUOTE/IMAGE SECTION */
 .mid-two {
     margin: 1%;
     padding: 1%;
     font-size: 2.0rem;
     font-family: 'Offside', cursive;
     text-align: center;
-    color: #3F0D12
+    color: #3F0D12;
+    width: 35%;
 }
 
 /* TITLE/SUBTITLE/DESCRIPTION */
@@ -481,4 +478,66 @@ footer  {
 } 
 
 
+@media(max-width: 800px) {
+    /* HEADER/NAV SECTION */
+    .logo {
+        width: 15%;
+    }
+
+    header nav {
+        width: 75%;
+    }
+
+    header nav a {
+        width: 20%;
+    }
+
+    /* HOME PAGE CONTENT */
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* TITLE/DESCRIPTION/LOGIN SECTION */
+    .mid-one {
+        order: 1;
+        width: 70%;
+    }
+
+    /* QUOTE/IMAGE SECTION */
+    .mid-two {
+        width: 70%;
+    }
+    
+    /* TITLE/SUBTITLE/DESCRIPTION */
+    .home-title {
+        width: 90%;
+    }
+
+    /* LOGIN/SIGN UP */
+    .login {
+        width: 90%;
+    }
+    /* END HOME PAGE CONTENT */
+
+
+    /* TEAM PAGE CONTENT */
+    /* TITLE/DESCRIPTION SECTION */
+    .team-title {
+        width: 90%;
+    }
+
+    /* MEMBER SECTION */
+    .member-container {
+        width: 90%;
+    }
+
+    .member-container h3 {
+        width: 90%;
+    }
+
+    .member-container h4 {
+        width: 90%;
+    }
+}
 
