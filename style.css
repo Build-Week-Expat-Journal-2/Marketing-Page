@@ -250,8 +250,9 @@ footer  {
     padding: 1%;
     font-size: 3.0rem;
     font-family: 'Open Sans', sans-serif;
-    width: 70%;
+    width: 60%;
     text-align: center;
+   
 }
 
 .team-title p {
@@ -306,7 +307,7 @@ footer  {
 }
 
 .member-container h4 {
-    width: 70%;
+    width: 80%;
     text-align: center;
     font-size: 2rem;
     margin: 1%;
